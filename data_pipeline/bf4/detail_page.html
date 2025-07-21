@@ -1,0 +1,546 @@
+<html lang="ko-KR" style="--vh: ${vh}px;"><head>
+    <!-- header include -->
+    
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no, address=no, email=no">
+<meta name="WT.ti" content="">
+<meta name="WT.userlogin" content="0">
+<meta name="WT.usergen" content="">
+<meta name="WT.usertype" content="">
+<script type="text/javascript" src="/js/webTrends.js?t=2"></script>
+<script type="text/javascript" src="/lib/jquery-1.11.0.min.js?t=2"></script>
+<script type="text/javascript" src="/js/jquery.rwdImageMaps.js?t=2"></script>
+
+<script type="text/javascript" src="/lib/jquery-ui.js?t=2"></script>
+<link rel="stylesheet" type="text/css" href="/lib/jquery-ui.css?t=2">
+
+<!-- common -->
+<link rel="stylesheet" type="text/css" href="/css/style.css?t=2">
+<script type="text/javascript" src="/js/common.js?t=2"></script>
+<script type="text/javascript" src="/js/co/Common.js?t=2"></script>
+<script type="text/javascript" src="/js/Header.js?t=2"></script>
+<script type="text/javascript" src="/js/AjaxJSON.js?t=2"></script>
+<script type="text/javascript" src="/js/SNS.js?t=2"></script>
+
+<!-- 검색엔진 ark 팝업이 아닌경우만 사용하도록 -->
+
+
+
+
+
+
+
+    
+
+
+<title> &lt; 건강보험심사평가원 보험인정기준</title> 
+
+<script type="text/javascript">
+    //document.title = " <  건강보험심사평가원";
+    function settingScrap(aa){
+        Header.createFavorite("02", aa);
+    }
+
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+    var TOP_DIR = '';
+    
+    var WWW = 'https://www.hira.or.kr';
+    var PGMID = '';
+    var TIMER_CHECK_LOGIN = 60 * 60;
+    var _SESS_ID = "2552ecc0-2680-4c71-82dc-07384da999ff";
+    var _SERV_NM = "www.hira.or.kr";
+    var _SERV_PT = "80";
+    
+    var Navi = {
+        path : '',
+        furl : '',
+        mnnm : '' + '|' +  '',  
+       
+        contact : function (pgmid) { 
+            if (pgmid == '') {
+                return;
+            }
+            
+            var sndData={pgmid : pgmid};
+            $.AjaxJSON(TOP_DIR+"/co/conn/getContactInfo.do", sndData, function callback(e, textStatus, jqXHR){
+                if (e.data.deptNm == '') {
+                    $('#contact-01-dept-nm').hide();
+                    $('#contact-02-dept-nm').hide();
+                } else {
+                    $('#contact-02-dept-nm').text(decodeURIComponentEx(e.data.deptNm));
+                }
+                if (e.data.deptReprTelNo == '') {
+                    $('#contact-01-dept-tl').hide();
+                    $('#contact-02-dept-tl').hide();
+                } else {
+                    $('#contact-02-dept-tl').text(e.data.deptReprTelNo);
+                }
+                if (e.data.deptFaxNo == '') {
+                    $('#contact-01-dept-fx').hide();
+                    $('#contact-02-dept-fx').hide();
+                } else {
+                    $('#contact-02-dept-fx').text(e.data.deptFaxNo);
+                }
+                //하단 담당자 정보
+                if (e.data.deptEmpNm == '' || e.data.chrgpUseYn != 'Y') {
+                    $('#contact-01-dept-em').hide();
+                    $('#contact-02-dept-em').hide();
+                } else {
+                       $('#contact-02-dept-em').text(decodeURIComponentEx(e.data.deptEmpNm));
+                }
+                //하단 수정일 정보
+                if (e.data.useYn != 'Y') {
+                    $('#content-01-upda-dd').hide();
+                    $('#content-02-upda-dd').hide();
+                } else {
+                    if(e.data.rctUpdDd != null)  {
+                        $('#content-02-upda-dd').text(String(e.data.rctUpdDd).substr(0, 4) + '.' + String(e.data.rctUpdDd).substr(4, 2) + '.' + String(e.data.rctUpdDd).substr(6, 2));
+                    }
+                }
+            });
+        },
+        
+        satis : function () { 
+            if ($("#satisType").val() == "") {
+                alert("만족도를 선택하세요.");
+                return false;
+            } else if ($("#rmk").val() == "") {
+                alert("개선의견을 입력하세요.");
+                $("#rmk").focus();
+                return false;
+            }
+            
+            var o = $('#satis-form');
+            var e = Common.checkForm(o);
+            
+            if (e != '') {
+                window.alert(e);
+                return;
+            }
+            
+            var sndData={satisType : $("#satisType").val(), menuUrl : location.protocol + '//' + location.host + location.pathname, rmk : encodeURIComponentEx($("#rmk").val()), pgmid : ''};
+            $.AjaxJSON("/rc/satis/create.do", sndData, function callback(e, textStatus, jqXHR){
+                try {
+                    window.alert('만족도 조사에 참여해 주셔서 감사합니다.');
+                    $("#satis-form input").val("");
+                    $("input[name=star]").prop("checked",false);
+                } catch (e) {
+                    window.alert('예기치 않은 오류가 발생하였습니다.');
+                }
+            });
+        },
+        
+        newSatis : function (oVal) { 
+            $("#satisType").val(oVal);
+            
+            if ($("#satisType").val() == "" || $("#satisType").val() == null) {
+                alert("만족도를 선택하세요.");
+                return false;
+            }
+        },
+        
+        twitter : function () { 
+            SNS.twitter(this.furl, this.mnnm);
+        },
+        
+        facebook : function () { 
+            SNS.facebook(this.furl, this.mnnm);
+        },
+        
+        naverBlog : function () { 
+            SNS.naverBlog(this.furl, this.mnnm);
+        },
+        
+        kakao : function () { 
+            SNS.kakao(this.furl, this.mnnm);
+        },
+        
+        copyUrl : function () { 
+            var url = '';
+            if (confirm('이 페이지의 URL을 클립보드에 복사하시겠습니까?')) {
+                var textarea = document.createElement("textarea");
+                document.body.appendChild(textarea);
+                url = window.document.location.href;
+                textarea.value = SNS.shorten(url);
+                textarea.select();
+                document.execCommand("copy");
+                document.body.removeChild(textarea);
+                
+                alert("페이지 URL 클립보드에 복사되었습니다.");
+            }
+            $('#urlCopy').focus();
+        }
+    };
+    //getPopkeyword('top','cmss'); 
+    //getPopkeyword('top','cmssudong');
+//]]>
+</script>
+</head>
+<body>
+    <script type="text/javascript">
+        document.title=" < 건강보험심사평가원 보험인정기준";
+    </script>
+    <!-- popup header start -->
+    <div id="wrapPopup">
+        <!-- popup header start-->
+        <div id="popHeader">
+            <h1>보험인정기준 상세내용</h1>
+        </div>
+        <div id="c">
+            <!-- popup content -->
+            <div class="pop_content">
+                <div class="btnAreaR">
+                    <a href="javascript:window.print();" class="btn_nor2 btnPrint"><span>인쇄</span></a>
+                </div>
+                <div class="viewCont mt05">
+                    <div class="title">[한방/척추/외상/중장기/15~22일] 외상 후 요추의 염좌 및 긴장 등 상병으로 입원한 사례 인정여부(한방 1기관 5사례)</div>
+                    <ul class="writer">
+                        <li><span>분류</span>심사사례지침</li>
+                        <li><span>관련근거</span>공고 제2023-90호</li>
+                        <li><span>게시일</span>2023-03-30</li>
+                        <li><span>조회수</span>24</li>
+                    </ul>
+                    
+                        <div class="fileBox">
+                           <ul>
+                               
+                                   <li>
+                                       <i class="icon-file-hwp" title="hwp" aria-label="hwp"></i>
+                                           [한방 1기관 5사례] 외상 후 요추의 염좌 및 긴장 등 상병으로 입원한 사례 인정여부(척추 3B)_3.hwp
+                                       <a href="#none" onclick="Header.goDown1('/share/intranet/simsabank/paystd/2023/03/31/1/RV202303318515049','[한방 1기관 5사례] 외상 후 요추의 염좌 및 긴장 등 상병으로 입원한 사례 인정여부(척추 3B)_3.hwp'); return false;" class="btn_file">첨부파일 다운로드</a>
+                                   </li>
+                               
+                           </ul>
+                           <ul>
+                               <li>자료가 다운되지 않을 경우 담당부서로 연락주시기 바랍니다.</li>
+                               <li>첨부파일명이 한글로 되어있는 경우 다운로드시 확인해 주세요.</li>
+                           </ul>
+                        </div>
+                    
+                    <div class="view">
+                        ■ 1기관(척추 3B) 5사례<br><br>
+<br><br>
+[선정사유]<br><br>
+○‘척추의 염좌 및 긴장, 배부동통’ 상병 입원율 상위기관<br><br>
+<br><br>
+[결정사항]<br><br>
+○ 「국민건강보험 요양급여의 기준에 관한 규칙 [별표1] 요양급여의 적용기준 및 방법」 및 「입원료 일반원칙(고시 제2021-4호, 2021.2.1. 시행)」에 의하면 입원은 질환의 특성 및 환자상태 등을 고려하여 임상적·의학적 필요성이 있다고 판단되는 경우에 실시하여야 하며 단순한 피로회복, 통원불편 등을 이유로 입원지시를 하여서는 아니 됨. 또한 입원료는 환자 질환 및 상태에 대한 적절한 치료 및 지속적인 관찰이 필요한 경우 인정하며, 입원 필요성이 있는 환자상태에 대한 임상적 소견 등이 진료기록부상에 기록되어야 함.<br><br>
+<br><br>
+○「척추의 염좌 및 긴장, 배부동통에 대한 입원료 인정기준」(심사지침, 공고 제2021-243호, 2021.11.1.)에 의거, 해당 상병으로 입원진료 하는 경우는 일상생활에 지장을 초래할 정도의 심한통증이 있거나 타 질환을 의심할만한 임상적 소견이 있어 감별진단이 필요한 경우로 세부 인정기준을 정하고 있음.<br><br>
+<br><br>
+○ 이 건(5사례)은 ‘요추의 염좌 및 긴장’ 등 상병으로 통증조절을 위하여 입원한 건으로, 진료내역을 참조하여 다음과 같이 사례별로 결정함.<br><br>
+<br><br>
+-다   음-<br><br>
+<br><br>
+▶ 사례1(여/57세)<br><br>
+- 수상일을 알 수 없으며, 김장하며 무거운 물건 들다가 삐끗한 후 등허리 통증으로 16일 입원 진료 후 ‘가2다(4) 15357 한방병원, 병원·정신병원·치과병원 내 한의과 7등급 간호관리료 4인실입원료’를 청구한 사례임.<br><br>
+- 외상 후 통증조절을 위하여 입원 진료를 시행하였으나, 제출된 진료기록부 등에서 일상생활에 지장을 초래할 정도의 심한 통증이라 판단할 수 있는 구체적이고 객관적인 기록이 미비함. 또한, 입원기간 중 수차례 외출을 시행하는 등 입원이 필요할 정도의 지속적 치료와 관찰이 필요한 경우로 확인되지 않는 바, 청구된 입원료는 인정하지 아니하며 심사사례지침으로 공고하기로 함.<br><br>
+<br><br>
+▶ 사례2(여/50세)<br><br>
+- 며칠 전 넘어지며 허리 통증, 우측 무릎, 양 어깨 만성 통증 호소하며 19일 입원 진료 후 ‘가2다(4) 15357 한방병원, 병원·정신병원·치과병원 내 한의과 7등급 간호관리료 4인실입원료’를 청구한 사례임.<br><br>
+- 외상 후 통증조절을 위하여 입원 진료를 시행하였으나, 제출된 진료기록부 등에서 일상생활에 지장을 초래할 정도의 심한 통증이라 판단할 수 있는 구체적이고 객관적인 기록이 미비함. 이에 입원이 필요할 정도의 지속적 치료와 관찰이 필요한 경우로 확인되지 않는 바, 청구된 입원료는 인정하지 아니하며 심사사례지침으로 공고하기로 함.<br><br>
+<br><br>
+▶ 사례3(여/52세)<br><br>
+- 2일 전 하산하면서 삐끗한 후 뒷목, 허리, 좌측 무릎 통증 호소하며 20일 입원 진료 후 ‘가2다(4) 15357 한방병원, 병원·정신병원·치과병원 내 한의과 7등급 간호관리료 4인실입원료’를 청구한 사례임.<br><br>
+- 외상 후 통증조절을 위하여 입원 진료를 시행하였으나, 제출된 진료기록부 등에서 일상생활에 지장을 초래할 정도의 심한 통증이라 판단할 수 있는 구체적이고 객관적인 기록이 미비함. 이에 입원이 필요할 정도의 지속적 치료와 관찰이 필요한 경우로 확인되지 않는 바, 청구된 입원료는 인정하지 아니하며 심사사례지침으로 공고하기로 함.<br><br>
+<br><br>
+▶ 사례4(여/57세)<br><br>
+- 3일 전 샤워하다 삐끗한 후 뒷목, 등 통증 등을 주호소로 20일 입원 진료 후 ‘가2다(4) 15357 한방병원, 병원·정신병원·치과병원 내 한의과 7등급 간호관리료 4인실입원료’를 청구한 사례임. <br><br>
+- 외상 후 통증으로 인한 수면장애를 호소하였으나, 제출된 진료기록부 등에서 일상생활에 지장을 초래할 정도의 심한 통증이라 판단할 수 있는 구체적이고 객관적인 기록이 미비함. 이에 입원이 필요할 정도의 지속적 치료와 관찰이 필요한 경우로 확인되지 않는 바, 청구된 입원료는 인정하지 아니하며 심사사례지침으로 공고하기로 함.<br><br>
+<br><br>
+▶ 사례5(여/18세)<br><br>
+- 지난 주 산에서 미끄러진 후 허리, 좌측 발목 통증을 주호소로 19일 입원 진료 후 ‘가2다(4) 15357 한방병원, 병원·정신병원·치과병원 내 한의과 7등급 간호관리료 4인실입원료’를 청구한 사례임.<br><br>
+- 외상 후 통증조절을 위하여 입원 진료를 시행하였으나, 제출된 진료기록부 등에서 일상생활에 지장을 초래할 정도의 심한 통증이라 판단할 수 있는 구체적이고 객관적인 기록이 미비함. 이에 입원이 필요할 정도의 지속적 치료와 관찰이 필요한 경우로 확인되지 않는 바, 청구된 입원료는 인정하지 아니하며 심사사례지침으로 공고하기로 함.<br><br>
+<br><br>
+[결정사유]<br><br>
+○ 사례1~3(여/57세, 여/50세, 여/52세), 사례5(여/18세)<br><br>
+- 내원 수일전 발생한 통증조절 위해 16~20일 입원한 사례로 제출된 진료기록부 등에서 환자의 심한 통증과 이로 인한 일상생활의 제한 및 환자 상태에 대한 적극적 치료와 관찰이 필요한 경우가 확인되지 않으므로 청구된 입원료는 모두 인정하지 아니함.<br><br>
+<br><br>
+○ 사례4(여/57세)<br><br>
+- 내원 3일전 발생한 뒷목, 등 부위 통증조절 위해 20일 입원한 사례로 제출된 진료기록부 등에서 외상 후 수면장애를 호소하였으나 환자의 심한 통증과 이로 인한 일상생활의 제한 및 환자 상태에 대한 적극적 치료와 관찰이 필요한 경우가 확인되지 않으므로 청구된 입원료는 모두 인정하지 아니함.<br><br>
+<br><br>
+[청구내역]<br><br>
+※ 별첨<br><br>
+<br><br>
+[진료내역]<br><br>
+※ 별첨<br><br>
+<br><br>
+[관련근거 및 참고문헌]<br><br>
+○ 국민건강보험 요양급여의 기준에 관한 규칙[별표1] 요양급여의 적용기준 및 방법, 6. 입원<br><br>
+○ 건강보험요양급여행위 및 그 상대가치점수 제1편 제2부 제1장 기본진료료 [산정지침]<br><br>
+○ 입원료 일반원칙 [고시 제2021-4호, 2021.2.1. 시행]<br><br>
+<br><br>
+※ 동 심사사례지침은 입원 관련 지표상 이상분포 경향을 보이는 요양기관의 유사 사례에 한하여, 위원회 심사 시 2023. 4. 1. 진료분 부터 적용함.<br><br>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- popup footer -->
+        <div id="popFooter">
+            <a href="javascript:self.close();" class="btn_popClose"><span>닫기</span></a>
+        </div>
+        <!-- 공공누리 제4유형 --> <!-- 심의사례공계 게시판만 대상임 -->
+        
+    </div>
+    <!-- popup header end -->
+
+
+<div id="screenity-ui"><div class="screenity-shadow-dom"><div><div class="screenity-scrollbar"></div><div class="screenity-scrollbar"></div></div><style type="text/css">
+        #screenity-ui, #screenity-ui div {
+            background-color: unset;
+            padding: unset;
+            width: unset;
+            box-shadow: unset;
+            display: unset;
+            margin: unset;
+            border-radius: unset;
+        }
+        .screenity-outline {
+            position: absolute;
+            z-index: 99999999999;
+            border: 2px solid #3080F8;
+            outline-offset: -2px;
+            pointer-events: none;
+            border-radius: 5px!important;
+        }
+    .screenity-blur {
+        filter: blur(10px)!important;
+    }
+        .screenity-shadow-dom * {
+            transition: unset;
+        }
+        .screenity-shadow-dom .TooltipContent {
+border-radius: 30px!important;
+background-color: #29292F!important;
+padding: 10px 15px!important;
+font-size: 12px;
+margin-bottom: 10px!important;
+bottom: 100px;
+line-height: 1;
+font-family: 'Satoshi-Medium', sans-serif;
+z-index: 99999999!important;
+color: #FFF;
+box-shadow: hsl(206 22% 7% / 35%) 0px 10px 38px -10px, hsl(206 22% 7% / 20%) 0px 10px 20px -15px!important;
+user-select: none;
+transition: opacity 0.3 ease-in-out;
+will-change: transform, opacity;
+animation-duration: 400ms;
+animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+will-change: transform, opacity;
+}
+
+.screenity-shadow-dom .hide-tooltip {
+display: none!important;
+}
+
+.screenity-shadow-dom .tooltip-tall {
+margin-bottom: 20px;
+}
+
+.screenity-shadow-dom .tooltip-small {
+margin-bottom: 5px;
+}
+
+.screenity-shadow-dom .TooltipContent[data-state='delayed-open'][data-side='top'] {
+animation-name: slideDownAndFade;
+}
+.screenity-shadow-dom .TooltipContent[data-state='delayed-open'][data-side='right'] {
+animation-name: slideLeftAndFade;
+}
+.screenity-shadow-dom.TooltipContent[data-state='delayed-open'][data-side='bottom'] {
+animation-name: slideUpAndFade;
+}
+.screenity-shadow-dom.TooltipContent[data-state='delayed-open'][data-side='left'] {
+animation-name: slideRightAndFade;
+}
+
+@keyframes slideUpAndFade {
+from {
+opacity: 0;
+transform: translateY(2px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+@keyframes slideRightAndFade {
+from {
+opacity: 0;
+transform: translateX(-2px);
+}
+to {
+opacity: 1;
+transform: translateX(0);
+}
+}
+
+@keyframes slideDownAndFade {
+from {
+opacity: 0;
+transform: translateY(-2px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+@keyframes slideLeftAndFade {
+from {
+opacity: 0;
+transform: translateX(2px);
+}
+to {
+opacity: 1;
+transform: translateX(0);
+}
+}
+
+#screenity-ui [data-radix-popper-content-wrapper] { z-index: 999999999999!important; } 
+
+.screenity-shadow-dom .CanvasContainer {
+position: fixed;
+pointer-events: all!important;
+top: 0px!important;
+left: 0px!important;
+z-index: 99999999999!important;
+}
+.screenity-shadow-dom .canvas {
+position: fixed;
+top: 0px!important;
+left: 0px!important;
+z-index: 99999999999!important;
+background: transparent!important;
+}
+.screenity-shadow-dom .canvas-container {
+top: 0px!important;
+left: 0px!important;
+z-index: 99999999999;
+position: fixed!important;
+background: transparent!important;
+}
+
+.ScreenityDropdownMenuContent {
+z-index: 99999999999!important;
+min-width: 200px;
+background-color: white;
+margin-top: 4px;
+margin-right: 8px;
+padding-top: 12px;
+padding-bottom: 12px;
+border-radius: 15px;
+z-index: 99999;
+font-family: 'Satoshi-Medium', sans-serif;
+color: #29292F;
+box-shadow: 0px 10px 38px -10px rgba(22, 23, 24, 0.35),
+0px 10px 20px -15px rgba(22, 23, 24, 0.2);
+animation-duration: 400ms;
+animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+will-change: transform, opacity;
+}
+.ScreenityDropdownMenuContent[data-side="top"] {
+animation-name: slideDownAndFade;
+}
+.ScreenityDropdownMenuContent[data-side="right"] {
+animation-name: slideLeftAndFade;
+}
+.ScreenityDropdownMenuContent[data-side="bottom"] {
+animation-name: slideUpAndFade;
+}
+.ScreenityDropdownMenuContent[data-side="left"] {
+animation-name: slideRightAndFade;
+}
+.ScreenityItemIndicator {
+position: absolute;
+right: 12px; 
+width: 18px;
+height: 18px;
+background: #3080F8;
+border-radius: 50%;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+}
+.ScreenityDropdownMenuItem,
+.ScreenityDropdownMenuRadioItem {
+font-size: 14px;
+line-height: 1;
+display: flex;
+align-items: center;
+height: 40px;
+padding: 0 5px;
+position: relative;
+padding-left: 22px;
+padding-right: 22px;
+user-select: none;
+outline: none;
+}
+.ScreenityDropdownMenuItem:hover {
+background-color: #d4d4d6 !important;
+cursor: pointer;
+}
+.ScreenityDropdownMenuItem[data-disabled] {
+color: #6E7684; !important;
+cursor: not-allowed;
+background-color: #d4d4d6 !important;
+}
+
+
+
+@keyframes slideUpAndFade {
+from {
+opacity: 0;
+transform: translateY(2px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+@keyframes slideRightAndFade {
+from {
+opacity: 0;
+transform: translateX(-2px);
+}
+to {
+opacity: 1;
+transform: translateX(0);
+}
+}
+
+@keyframes slideDownAndFade {
+from {
+opacity: 0;
+transform: translateY(-2px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+@keyframes slideLeftAndFade {
+from {
+opacity: 0;
+transform: translateX(2px);
+}
+to {
+opacity: 1;
+transform: translateX(0);
+}
+}
+
+</style></div></div></body></html>
