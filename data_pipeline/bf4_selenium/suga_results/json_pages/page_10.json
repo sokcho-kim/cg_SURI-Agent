@@ -1,0 +1,162 @@
+[
+  {
+    "parent_code": "AG211",
+    "sub_code": "―  AG211200",
+    "sub_name": "신생아실 입원료-질병이 없는 신생아-종합병원"
+  },
+  {
+    "parent_code": "AG211",
+    "sub_code": "―  AG211100",
+    "sub_name": "신생아실 입원료-질병이 없는 신생아-종합병원"
+  },
+  {
+    "parent_code": "AG212",
+    "sub_code": "―  AG212200",
+    "sub_name": "모자동실입원료-종합병원"
+  },
+  {
+    "parent_code": "AG212",
+    "sub_code": "―  AG212100",
+    "sub_name": "모자동실입원료-종합병원"
+  },
+  {
+    "parent_code": "AG213",
+    "sub_code": "―  AG213200",
+    "sub_name": "신생아모유수유간호관리료-종합병원"
+  },
+  {
+    "parent_code": "AG213",
+    "sub_code": "―  AG213100",
+    "sub_name": "신생아모유수유간호관리료-종합병원"
+  },
+  {
+    "parent_code": "AG221",
+    "sub_code": "―  AG221200",
+    "sub_name": "신생아실 입원료-질병이 있는 신생아-종합병원"
+  },
+  {
+    "parent_code": "AG221",
+    "sub_code": "―  AG221100",
+    "sub_name": "신생아실 입원료-질병이 있는 신생아-종합병원"
+  },
+  {
+    "parent_code": "AG311",
+    "sub_code": "―  AG311200",
+    "sub_name": "신생아실 입원료-질병이 없는 신생아-병원, 치과병원·한방병원 내 의과"
+  },
+  {
+    "parent_code": "AG311",
+    "sub_code": "―  AG311100",
+    "sub_name": "신생아실 입원료-질병이 없는 신생아-병원, 치과병원·한방병원 내 의과"
+  },
+  {
+    "parent_code": "AG312",
+    "sub_code": "―  AG312200",
+    "sub_name": "모자동실입원료-병원, 치과병원·한방병원 내 의과"
+  },
+  {
+    "parent_code": "AG312",
+    "sub_code": "―  AG312100",
+    "sub_name": "모자동실입원료-병원, 치과병원·한방병원 내 의과"
+  },
+  {
+    "parent_code": "AG313",
+    "sub_code": "―  AG313200",
+    "sub_name": "신생아모유수유간호관리료-병원, 치과병원·한방병원 내 의과"
+  },
+  {
+    "parent_code": "AG313",
+    "sub_code": "―  AG313100",
+    "sub_name": "신생아모유수유간호관리료-병원, 치과병원·한방병원 내 의과"
+  },
+  {
+    "parent_code": "AG321",
+    "sub_code": "―  AG321200",
+    "sub_name": "신생아실 입원료-질병이 있는 신생아-병원, 치과병원·한방병원 내 의과"
+  },
+  {
+    "parent_code": "AG321",
+    "sub_code": "―  AG321100",
+    "sub_name": "신생아실 입원료-질병이 있는 신생아-병원, 치과병원·한방병원 내 의과"
+  },
+  {
+    "parent_code": "AG411",
+    "sub_code": "―  AG411200",
+    "sub_name": "신생아실 입원료-질병이 없는 신생아-의원,보건의료원 의과"
+  },
+  {
+    "parent_code": "AG411",
+    "sub_code": "―  AG411100",
+    "sub_name": "신생아실 입원료-질병이 없는 신생아-의원,보건의료원 의과"
+  },
+  {
+    "parent_code": "AG412",
+    "sub_code": "―  AG412200",
+    "sub_name": "모자동실입원료-의원,보건의료원 의과"
+  },
+  {
+    "parent_code": "AG412",
+    "sub_code": "―  AG412100",
+    "sub_name": "모자동실입원료-의원,보건의료원 의과"
+  },
+  {
+    "parent_code": "AG413",
+    "sub_code": "―  AG413200",
+    "sub_name": "신생아모유수유간호관리료-의원,보건의료원 의과"
+  },
+  {
+    "parent_code": "AG413",
+    "sub_code": "―  AG413100",
+    "sub_name": "신생아모유수유간호관리료-의원,보건의료원 의과"
+  },
+  {
+    "parent_code": "AG421",
+    "sub_code": "―  AG421200",
+    "sub_name": "신생아실 입원료-질병이 있는 신생아-의원,보건의료원 의과"
+  },
+  {
+    "parent_code": "AG421",
+    "sub_code": "―  AG421100",
+    "sub_name": "신생아실 입원료-질병이 있는 신생아-의원,보건의료원 의과"
+  },
+  {
+    "parent_code": "AH011",
+    "sub_code": "",
+    "sub_name": "감염예방·관리료-상급종합병원, 종합병원 1등급"
+  },
+  {
+    "parent_code": "AH012",
+    "sub_code": "",
+    "sub_name": "감염예방·관리료-상급종합병원, 종합병원 2등급"
+  },
+  {
+    "parent_code": "AH013",
+    "sub_code": "",
+    "sub_name": "감염예방·관리료-상급종합병원, 종합병원 3등급"
+  },
+  {
+    "parent_code": "AH021",
+    "sub_code": "",
+    "sub_name": "감염예방·관리료-병원 1등급"
+  },
+  {
+    "parent_code": "AH022",
+    "sub_code": "",
+    "sub_name": "감염예방·관리료-병원 2등급"
+  },
+  {
+    "parent_code": "AH023",
+    "sub_code": "",
+    "sub_name": "감염예방·관리료-병원 3등급"
+  },
+  {
+    "parent_code": "AH200",
+    "sub_code": "",
+    "sub_name": "만성질환관리료"
+  },
+  {
+    "parent_code": "AH400",
+    "sub_code": "",
+    "sub_name": "신종플루 감염전문관리료(치료거점병원)"
+  }
+]

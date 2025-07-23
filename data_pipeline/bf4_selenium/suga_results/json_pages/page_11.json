@@ -1,0 +1,102 @@
+[
+  {
+    "parent_code": "AH500",
+    "sub_code": "",
+    "sub_name": "협의진찰료-상급종합병원,상급종합병원에 설치된 치과대학부속치과병원 내 의·치과"
+  },
+  {
+    "parent_code": "AH501",
+    "sub_code": "",
+    "sub_name": "중환자실 입원시 협의진찰료-상급종합병원,상급종합병원에 설치된 치과대학부속치과병원 내 의·치과"
+  },
+  {
+    "parent_code": "AH600",
+    "sub_code": "",
+    "sub_name": "협의진찰료-종합병원,상급종합병원에 설치된 경우를 제외한 치과대학부속치과병원 내 의·치과"
+  },
+  {
+    "parent_code": "AH700",
+    "sub_code": "",
+    "sub_name": "협의진찰료-병원, 한방병원, 치과병원 내 의·치과"
+  },
+  {
+    "parent_code": "AH800",
+    "sub_code": "",
+    "sub_name": "협의진찰료-요양병원,보건의료원 내 의·치과"
+  },
+  {
+    "parent_code": "AH900",
+    "sub_code": "",
+    "sub_name": "협의진찰료-의원,치과의원"
+  },
+  {
+    "parent_code": "AI001",
+    "sub_code": "",
+    "sub_name": "야간전담간호사 관리료-일반병동 전체 간호사 수 대비 야간전담 간호사 수 5:1미만"
+  },
+  {
+    "parent_code": "AI002",
+    "sub_code": "",
+    "sub_name": "야간전담간호사 관리료-일반병동 전체 간호사 수 대비 야간전담 간호사 수 8:1 미만 5:1 이상"
+  },
+  {
+    "parent_code": "AI003",
+    "sub_code": "",
+    "sub_name": "야간전담간호사 관리료-일반병동 전체 간호사 수 대비 야간전담 간호사 수 8:1 이상"
+  },
+  {
+    "parent_code": "AI100",
+    "sub_code": "",
+    "sub_name": "다학제통합진료료-참여 의사 수 3인"
+  },
+  {
+    "parent_code": "AI101",
+    "sub_code": "",
+    "sub_name": "다학제통합진료료-참여 의사 수 4인"
+  },
+  {
+    "parent_code": "AI102",
+    "sub_code": "",
+    "sub_name": "다학제통합진료료-참여 의사 수 5인"
+  },
+  {
+    "parent_code": "AI103",
+    "sub_code": "",
+    "sub_name": "다학제통합진료료-참여 의사 수 6인"
+  },
+  {
+    "parent_code": "AI104",
+    "sub_code": "",
+    "sub_name": "다학제통합진료료-참여 의사 수 7인"
+  },
+  {
+    "parent_code": "AI105",
+    "sub_code": "",
+    "sub_name": "다학제통합진료료-참여 의사 수 8인"
+  },
+  {
+    "parent_code": "AI106",
+    "sub_code": "",
+    "sub_name": "다학제통합진료료-참여 의사 수 9인 이상"
+  },
+  {
+    "parent_code": "AI200",
+    "sub_code": "―  AI200001",
+    "sub_name": "심장통합진료료"
+  },
+  {
+    "parent_code": "AI301",
+    "sub_code": "",
+    "sub_name": "비만수술 통합진료료-참여 의사 수 3인"
+  },
+  {
+    "parent_code": "AI302",
+    "sub_code": "",
+    "sub_name": "비만수술 통합진료료-참여 의사 수 4인 이상"
+  },
+  {
+    "parent_code": "AI600",
+    "sub_code": "",
+    "sub_name": "집중영양치료료-상급종합병원"
+  }
+]

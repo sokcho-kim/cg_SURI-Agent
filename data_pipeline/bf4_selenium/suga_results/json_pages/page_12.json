@@ -1,0 +1,152 @@
+[
+  {
+    "parent_code": "AI700",
+    "sub_code": "",
+    "sub_name": "집중영양치료료-종합병원"
+  },
+  {
+    "parent_code": "AI900",
+    "sub_code": "",
+    "sub_name": "뇌사장기기증자 관리료"
+  },
+  {
+    "parent_code": "AJ001",
+    "sub_code": "",
+    "sub_name": "일반중환자실 전담의"
+  },
+  {
+    "parent_code": "AJ003",
+    "sub_code": "",
+    "sub_name": "일반중환자실 전문전담의"
+  },
+  {
+    "parent_code": "AJ004",
+    "sub_code": "",
+    "sub_name": "소아중환자실 전담의"
+  },
+  {
+    "parent_code": "AJ005",
+    "sub_code": "",
+    "sub_name": "소아중환자실 전문전담의"
+  },
+  {
+    "parent_code": "AJ006",
+    "sub_code": "",
+    "sub_name": "상급종합병원, 종합병원-일반중환자실 전담의"
+  },
+  {
+    "parent_code": "AJ007",
+    "sub_code": "",
+    "sub_name": "상급종합병원, 종합병원-일반중환자실 전문전담의"
+  },
+  {
+    "parent_code": "AJ008",
+    "sub_code": "",
+    "sub_name": "상급종합병원, 종합병원-소아중환자실 전담의"
+  },
+  {
+    "parent_code": "AJ009",
+    "sub_code": "",
+    "sub_name": "상급종합병원, 종합병원-소아중환자실 전문전담의"
+  },
+  {
+    "parent_code": "AJ010",
+    "sub_code": "",
+    "sub_name": "중환자실 내 격리관리료-일반격리관리료"
+  },
+  {
+    "parent_code": "AJ011",
+    "sub_code": "",
+    "sub_name": "상급종합병원-중환자실 내 격리관리료-일반격리관리료"
+  },
+  {
+    "parent_code": "AJ020",
+    "sub_code": "",
+    "sub_name": "중환자실 내 격리관리료-음압격리관리료"
+  },
+  {
+    "parent_code": "AJ021",
+    "sub_code": "",
+    "sub_name": "상급종합병원-중환자실 내 격리관리료-음압격리관리료"
+  },
+  {
+    "parent_code": "AJ031",
+    "sub_code": "",
+    "sub_name": "중환자실 내 격리관리료-중환자실내 격리실 마스크 사용_1인용"
+  },
+  {
+    "parent_code": "AJ100",
+    "sub_code": "―  AJ100200",
+    "sub_name": "상급종합병원-3등급간호관리료적용 일반중환자실입원료"
+  },
+  {
+    "parent_code": "AJ100",
+    "sub_code": "―  AJ100100",
+    "sub_name": "상급종합병원-3등급간호관리료적용 일반중환자실입원료"
+  },
+  {
+    "parent_code": "AJ101",
+    "sub_code": "―  AJ101220",
+    "sub_name": "상급종합병원-5등급간호관리료적용 신생아중환자실입원료"
+  },
+  {
+    "parent_code": "AJ101",
+    "sub_code": "―  AJ101210",
+    "sub_name": "상급종합병원-5등급간호관리료적용 신생아중환자실입원료"
+  },
+  {
+    "parent_code": "AJ101",
+    "sub_code": "―  AJ101200",
+    "sub_name": "상급종합병원-5등급간호관리료적용 신생아중환자실입원료"
+  },
+  {
+    "parent_code": "AJ101",
+    "sub_code": "―  AJ101120",
+    "sub_name": "상급종합병원-5등급간호관리료적용 신생아중환자실입원료"
+  },
+  {
+    "parent_code": "AJ101",
+    "sub_code": "―  AJ101110",
+    "sub_name": "상급종합병원-5등급간호관리료적용 신생아중환자실입원료"
+  },
+  {
+    "parent_code": "AJ101",
+    "sub_code": "―  AJ101100",
+    "sub_name": "상급종합병원-5등급간호관리료적용 신생아중환자실입원료"
+  },
+  {
+    "parent_code": "AJ101",
+    "sub_code": "―  AJ101020",
+    "sub_name": "상급종합병원-5등급간호관리료적용 신생아중환자실입원료"
+  },
+  {
+    "parent_code": "AJ101",
+    "sub_code": "―  AJ101010",
+    "sub_name": "상급종합병원-5등급간호관리료적용 신생아중환자실입원료"
+  },
+  {
+    "parent_code": "AJ102",
+    "sub_code": "―  AJ102200",
+    "sub_name": "상급종합병원-4등급간호관리료적용 소아중환자실입원료"
+  },
+  {
+    "parent_code": "AJ102",
+    "sub_code": "―  AJ102100",
+    "sub_name": "상급종합병원-4등급간호관리료적용 소아중환자실입원료"
+  },
+  {
+    "parent_code": "AJ103",
+    "sub_code": "",
+    "sub_name": "신생아 중환자실 모유수유간호관리료-상급종합병원"
+  },
+  {
+    "parent_code": "AJ110",
+    "sub_code": "―  AJ110200",
+    "sub_name": "상급종합병원-1등급간호관리료적용 일반중환자실입원료"
+  },
+  {
+    "parent_code": "AJ110",
+    "sub_code": "―  AJ110100",
+    "sub_name": "상급종합병원-1등급간호관리료적용 일반중환자실입원료"
+  }
+]

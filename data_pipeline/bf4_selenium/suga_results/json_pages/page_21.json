@@ -1,0 +1,302 @@
+[
+  {
+    "parent_code": "AL855",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-5일분(의원,치과의원,보건의료원 의·치과)"
+  },
+  {
+    "parent_code": "AL856",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-6일분(의원,치과의원,보건의료원 의·치과)"
+  },
+  {
+    "parent_code": "AL857",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-7일분(의원,치과의원,보건의료원 의·치과)"
+  },
+  {
+    "parent_code": "AL858",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-8일분(의원,치과의원,보건의료원 의·치과)"
+  },
+  {
+    "parent_code": "AL859",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-9일분(의원,치과의원,보건의료원 의·치과)"
+  },
+  {
+    "parent_code": "AL860",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-10일분(의원,치과의원,보건의료원 의·치과)"
+  },
+  {
+    "parent_code": "AL861",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-11일분(의원,치과의원,보건의료원 의·치과)"
+  },
+  {
+    "parent_code": "AL862",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-12일분(의원,치과의원,보건의료원 의·치과)"
+  },
+  {
+    "parent_code": "AL863",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-13일분(의원,치과의원,보건의료원 의·치과)"
+  },
+  {
+    "parent_code": "AL874",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-14일분(의원,치과의원,보건의료원 의·치과)"
+  },
+  {
+    "parent_code": "AL875",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-15일분(의원,치과의원,보건의료원 의·치과)"
+  },
+  {
+    "parent_code": "AL886",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-16~30일분(의원,치과의원,보건의료원 의·치과)"
+  },
+  {
+    "parent_code": "AL887",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-31일분 이상(의원,치과의원,보건의료원 의·치과)"
+  },
+  {
+    "parent_code": "AL900",
+    "sub_code": "",
+    "sub_name": "혈액관리료[Unit당]"
+  },
+  {
+    "parent_code": "AM100",
+    "sub_code": "",
+    "sub_name": "보육기[1일당]"
+  },
+  {
+    "parent_code": "AN200",
+    "sub_code": "―  AN200650",
+    "sub_name": "가정간호기본방문료[방문당]-상급종합병원"
+  },
+  {
+    "parent_code": "AN200",
+    "sub_code": "―  AN200610",
+    "sub_name": "가정간호기본방문료[방문당]-상급종합병원"
+  },
+  {
+    "parent_code": "AN200",
+    "sub_code": "―  AN200600",
+    "sub_name": "가정간호기본방문료[방문당]-상급종합병원"
+  },
+  {
+    "parent_code": "AN200",
+    "sub_code": "―  AN200450",
+    "sub_name": "가정간호기본방문료[방문당]-상급종합병원"
+  },
+  {
+    "parent_code": "AN200",
+    "sub_code": "―  AN200410",
+    "sub_name": "가정간호기본방문료[방문당]-상급종합병원"
+  },
+  {
+    "parent_code": "AN200",
+    "sub_code": "―  AN200400",
+    "sub_name": "가정간호기본방문료[방문당]-상급종합병원"
+  },
+  {
+    "parent_code": "AN200",
+    "sub_code": "―  AN200150",
+    "sub_name": "가정간호기본방문료[방문당]-상급종합병원"
+  },
+  {
+    "parent_code": "AN200",
+    "sub_code": "―  AN200110",
+    "sub_name": "가정간호기본방문료[방문당]-상급종합병원"
+  },
+  {
+    "parent_code": "AN200",
+    "sub_code": "―  AN200100",
+    "sub_name": "가정간호기본방문료[방문당]-상급종합병원"
+  },
+  {
+    "parent_code": "AN200",
+    "sub_code": "―  AN200050",
+    "sub_name": "가정간호기본방문료[방문당]-상급종합병원"
+  },
+  {
+    "parent_code": "AN200",
+    "sub_code": "―  AN200010",
+    "sub_name": "가정간호기본방문료[방문당]-상급종합병원"
+  },
+  {
+    "parent_code": "AN300",
+    "sub_code": "―  AN300650",
+    "sub_name": "가정간호기본방문료[방문당]-종합병원"
+  },
+  {
+    "parent_code": "AN300",
+    "sub_code": "―  AN300610",
+    "sub_name": "가정간호기본방문료[방문당]-종합병원"
+  },
+  {
+    "parent_code": "AN300",
+    "sub_code": "―  AN300600",
+    "sub_name": "가정간호기본방문료[방문당]-종합병원"
+  },
+  {
+    "parent_code": "AN300",
+    "sub_code": "―  AN300450",
+    "sub_name": "가정간호기본방문료[방문당]-종합병원"
+  },
+  {
+    "parent_code": "AN300",
+    "sub_code": "―  AN300410",
+    "sub_name": "가정간호기본방문료[방문당]-종합병원"
+  },
+  {
+    "parent_code": "AN300",
+    "sub_code": "―  AN300400",
+    "sub_name": "가정간호기본방문료[방문당]-종합병원"
+  },
+  {
+    "parent_code": "AN300",
+    "sub_code": "―  AN300150",
+    "sub_name": "가정간호기본방문료[방문당]-종합병원"
+  },
+  {
+    "parent_code": "AN300",
+    "sub_code": "―  AN300110",
+    "sub_name": "가정간호기본방문료[방문당]-종합병원"
+  },
+  {
+    "parent_code": "AN300",
+    "sub_code": "―  AN300100",
+    "sub_name": "가정간호기본방문료[방문당]-종합병원"
+  },
+  {
+    "parent_code": "AN300",
+    "sub_code": "―  AN300050",
+    "sub_name": "가정간호기본방문료[방문당]-종합병원"
+  },
+  {
+    "parent_code": "AN300",
+    "sub_code": "―  AN300010",
+    "sub_name": "가정간호기본방문료[방문당]-종합병원"
+  },
+  {
+    "parent_code": "AN400",
+    "sub_code": "―  AN400650",
+    "sub_name": "가정간호기본방문료[방문당]-병원,치과·한방·요양병원"
+  },
+  {
+    "parent_code": "AN400",
+    "sub_code": "―  AN400610",
+    "sub_name": "가정간호기본방문료[방문당]-병원,치과·한방·요양병원"
+  },
+  {
+    "parent_code": "AN400",
+    "sub_code": "―  AN400600",
+    "sub_name": "가정간호기본방문료[방문당]-병원,치과·한방·요양병원"
+  },
+  {
+    "parent_code": "AN400",
+    "sub_code": "―  AN400450",
+    "sub_name": "가정간호기본방문료[방문당]-병원,치과·한방·요양병원"
+  },
+  {
+    "parent_code": "AN400",
+    "sub_code": "―  AN400410",
+    "sub_name": "가정간호기본방문료[방문당]-병원,치과·한방·요양병원"
+  },
+  {
+    "parent_code": "AN400",
+    "sub_code": "―  AN400400",
+    "sub_name": "가정간호기본방문료[방문당]-병원,치과·한방·요양병원"
+  },
+  {
+    "parent_code": "AN400",
+    "sub_code": "―  AN400150",
+    "sub_name": "가정간호기본방문료[방문당]-병원,치과·한방·요양병원"
+  },
+  {
+    "parent_code": "AN400",
+    "sub_code": "―  AN400110",
+    "sub_name": "가정간호기본방문료[방문당]-병원,치과·한방·요양병원"
+  },
+  {
+    "parent_code": "AN400",
+    "sub_code": "―  AN400100",
+    "sub_name": "가정간호기본방문료[방문당]-병원,치과·한방·요양병원"
+  },
+  {
+    "parent_code": "AN400",
+    "sub_code": "―  AN400050",
+    "sub_name": "가정간호기본방문료[방문당]-병원,치과·한방·요양병원"
+  },
+  {
+    "parent_code": "AN400",
+    "sub_code": "―  AN400010",
+    "sub_name": "가정간호기본방문료[방문당]-병원,치과·한방·요양병원"
+  },
+  {
+    "parent_code": "AN500",
+    "sub_code": "―  AN500650",
+    "sub_name": "가정간호기본방문료[방문당]-의원,보건의료원 내 의과"
+  },
+  {
+    "parent_code": "AN500",
+    "sub_code": "―  AN500610",
+    "sub_name": "가정간호기본방문료[방문당]-의원,보건의료원 내 의과"
+  },
+  {
+    "parent_code": "AN500",
+    "sub_code": "―  AN500600",
+    "sub_name": "가정간호기본방문료[방문당]-의원,보건의료원 내 의과"
+  },
+  {
+    "parent_code": "AN500",
+    "sub_code": "―  AN500450",
+    "sub_name": "가정간호기본방문료[방문당]-의원,보건의료원 내 의과"
+  },
+  {
+    "parent_code": "AN500",
+    "sub_code": "―  AN500410",
+    "sub_name": "가정간호기본방문료[방문당]-의원,보건의료원 내 의과"
+  },
+  {
+    "parent_code": "AN500",
+    "sub_code": "―  AN500400",
+    "sub_name": "가정간호기본방문료[방문당]-의원,보건의료원 내 의과"
+  },
+  {
+    "parent_code": "AN500",
+    "sub_code": "―  AN500150",
+    "sub_name": "가정간호기본방문료[방문당]-의원,보건의료원 내 의과"
+  },
+  {
+    "parent_code": "AN500",
+    "sub_code": "―  AN500110",
+    "sub_name": "가정간호기본방문료[방문당]-의원,보건의료원 내 의과"
+  },
+  {
+    "parent_code": "AN500",
+    "sub_code": "―  AN500100",
+    "sub_name": "가정간호기본방문료[방문당]-의원,보건의료원 내 의과"
+  },
+  {
+    "parent_code": "AN500",
+    "sub_code": "―  AN500050",
+    "sub_name": "가정간호기본방문료[방문당]-의원,보건의료원 내 의과"
+  },
+  {
+    "parent_code": "AN500",
+    "sub_code": "―  AN500010",
+    "sub_name": "가정간호기본방문료[방문당]-의원,보건의료원 내 의과"
+  },
+  {
+    "parent_code": "AP501",
+    "sub_code": "",
+    "sub_name": "회복관리료-상급종합병원"
+  }
+]

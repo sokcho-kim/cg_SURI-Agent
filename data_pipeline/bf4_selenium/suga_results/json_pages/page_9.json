@@ -1,0 +1,162 @@
+[
+  {
+    "parent_code": "AC732",
+    "sub_code": "",
+    "sub_name": "고위험임산부 집중관리료[1일당]-병원-6시간 이상"
+  },
+  {
+    "parent_code": "AC741",
+    "sub_code": "",
+    "sub_name": "고위험임산부 집중관리료[1일당]-의원-6시간 미만"
+  },
+  {
+    "parent_code": "AC742",
+    "sub_code": "",
+    "sub_name": "고위험임산부 집중관리료[1일당]-의원-6시간 이상"
+  },
+  {
+    "parent_code": "AD100",
+    "sub_code": "―  AD100200",
+    "sub_name": "상급종합병원 무균치료실입원료-1인용"
+  },
+  {
+    "parent_code": "AD100",
+    "sub_code": "―  AD100100",
+    "sub_name": "상급종합병원 무균치료실입원료-1인용"
+  },
+  {
+    "parent_code": "AD101",
+    "sub_code": "―  AD101200",
+    "sub_name": "상급종합병원 무균치료실입원료-다인용"
+  },
+  {
+    "parent_code": "AD101",
+    "sub_code": "―  AD101100",
+    "sub_name": "상급종합병원 무균치료실입원료-다인용"
+  },
+  {
+    "parent_code": "AD200",
+    "sub_code": "―  AD200200",
+    "sub_name": "종합병원 무균치료실입원료-1인용"
+  },
+  {
+    "parent_code": "AD200",
+    "sub_code": "―  AD200100",
+    "sub_name": "종합병원 무균치료실입원료-1인용"
+  },
+  {
+    "parent_code": "AD201",
+    "sub_code": "―  AD201200",
+    "sub_name": "종합병원 무균치료실입원료-다인용"
+  },
+  {
+    "parent_code": "AD201",
+    "sub_code": "―  AD201100",
+    "sub_name": "종합병원 무균치료실입원료-다인용"
+  },
+  {
+    "parent_code": "AD300",
+    "sub_code": "―  AD300200",
+    "sub_name": "병원, 치과병원, 한방병원 내 의·치과 무균치료실입원료-1인용"
+  },
+  {
+    "parent_code": "AD300",
+    "sub_code": "―  AD300100",
+    "sub_name": "병원, 치과병원, 한방병원 내 의·치과 무균치료실입원료-1인용"
+  },
+  {
+    "parent_code": "AD301",
+    "sub_code": "―  AD301200",
+    "sub_name": "병원, 치과병원, 한방병원 내 의·치과 무균치료실입원료-다인용"
+  },
+  {
+    "parent_code": "AD301",
+    "sub_code": "―  AD301100",
+    "sub_name": "병원, 치과병원, 한방병원 내 의·치과 무균치료실입원료-다인용"
+  },
+  {
+    "parent_code": "AD400",
+    "sub_code": "―  AD400200",
+    "sub_name": "의원, 치과의원, 보건의료원 내 의·치과 무균치료실입원료-1인용"
+  },
+  {
+    "parent_code": "AD400",
+    "sub_code": "―  AD400100",
+    "sub_name": "의원, 치과의원, 보건의료원 내 의·치과 무균치료실입원료-1인용"
+  },
+  {
+    "parent_code": "AD401",
+    "sub_code": "―  AD401200",
+    "sub_name": "의원, 치과의원, 보건의료원 내 의·치과 무균치료실입원료-다인용"
+  },
+  {
+    "parent_code": "AD401",
+    "sub_code": "―  AD401100",
+    "sub_name": "의원, 치과의원, 보건의료원 내 의·치과 무균치료실입원료-다인용"
+  },
+  {
+    "parent_code": "AE100",
+    "sub_code": "",
+    "sub_name": "회송료"
+  },
+  {
+    "parent_code": "AF100",
+    "sub_code": "",
+    "sub_name": "낮병동입원료-상급종합병원"
+  },
+  {
+    "parent_code": "AF200",
+    "sub_code": "",
+    "sub_name": "낮병동입원료-종합병원"
+  },
+  {
+    "parent_code": "AF300",
+    "sub_code": "",
+    "sub_name": "낮병동입원료-병원, 치과병원, 한방병원 내 의·치과"
+  },
+  {
+    "parent_code": "AF400",
+    "sub_code": "",
+    "sub_name": "낮병동입원료-의원,치과의원,보건의료원 의·치과"
+  },
+  {
+    "parent_code": "AG111",
+    "sub_code": "―  AG111200",
+    "sub_name": "신생아실 입원료-질병이 없는 신생아-상급종합병원"
+  },
+  {
+    "parent_code": "AG111",
+    "sub_code": "―  AG111100",
+    "sub_name": "신생아실 입원료-질병이 없는 신생아-상급종합병원"
+  },
+  {
+    "parent_code": "AG112",
+    "sub_code": "―  AG112200",
+    "sub_name": "모자동실입원료-상급종합병원"
+  },
+  {
+    "parent_code": "AG112",
+    "sub_code": "―  AG112100",
+    "sub_name": "모자동실입원료-상급종합병원"
+  },
+  {
+    "parent_code": "AG113",
+    "sub_code": "―  AG113200",
+    "sub_name": "신생아모유수유간호관리료-상급종합병원"
+  },
+  {
+    "parent_code": "AG113",
+    "sub_code": "―  AG113100",
+    "sub_name": "신생아모유수유간호관리료-상급종합병원"
+  },
+  {
+    "parent_code": "AG121",
+    "sub_code": "―  AG121200",
+    "sub_name": "신생아실 입원료-질병이 있는 신생아-상급종합병원"
+  },
+  {
+    "parent_code": "AG121",
+    "sub_code": "―  AG121100",
+    "sub_name": "신생아실 입원료-질병이 있는 신생아-상급종합병원"
+  }
+]

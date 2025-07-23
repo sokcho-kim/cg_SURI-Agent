@@ -1,0 +1,102 @@
+[
+  {
+    "parent_code": "AL100",
+    "sub_code": "",
+    "sub_name": "외래환자 의약품관리료[방문당]-상급종합병원"
+  },
+  {
+    "parent_code": "AL200",
+    "sub_code": "",
+    "sub_name": "외래환자 의약품관리료[방문당]-종합병원"
+  },
+  {
+    "parent_code": "AL300",
+    "sub_code": "",
+    "sub_name": "외래환자 의약품관리료[방문당]-병원, 치과병원, 요양병원·한방병원 내 의·치과"
+  },
+  {
+    "parent_code": "AL400",
+    "sub_code": "",
+    "sub_name": "외래환자 의약품관리료-포장단위(병,팩)지급(의원급 의·치과)"
+  },
+  {
+    "parent_code": "AL550",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-포장단위(병,팩)지급(상급종합병원)"
+  },
+  {
+    "parent_code": "AL551",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-1일분(상급종합병원)"
+  },
+  {
+    "parent_code": "AL552",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-2일분(상급종합병원)"
+  },
+  {
+    "parent_code": "AL553",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-3일분(상급종합병원)"
+  },
+  {
+    "parent_code": "AL554",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-4일분(상급종합병원)"
+  },
+  {
+    "parent_code": "AL555",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-5일분(상급종합병원)"
+  },
+  {
+    "parent_code": "AL556",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-6일분(상급종합병원)"
+  },
+  {
+    "parent_code": "AL557",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-7일분(상급종합병원)"
+  },
+  {
+    "parent_code": "AL558",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-8일분(상급종합병원)"
+  },
+  {
+    "parent_code": "AL559",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-9일분(상급종합병원)"
+  },
+  {
+    "parent_code": "AL560",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-10일분(상급종합병원)"
+  },
+  {
+    "parent_code": "AL561",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-11일분(상급종합병원)"
+  },
+  {
+    "parent_code": "AL562",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-12일분(상급종합병원)"
+  },
+  {
+    "parent_code": "AL563",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-13일분(상급종합병원)"
+  },
+  {
+    "parent_code": "AL574",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-14일분(상급종합병원)"
+  },
+  {
+    "parent_code": "AL575",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-15일분(상급종합병원)"
+  }
+]

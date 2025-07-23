@@ -1,0 +1,102 @@
+[
+  {
+    "parent_code": "AP502",
+    "sub_code": "",
+    "sub_name": "외래 항암주사관리료-상급종합병원"
+  },
+  {
+    "parent_code": "AP503",
+    "sub_code": "",
+    "sub_name": "항암요법 부작용 및 반응평가료-상급종합병원"
+  },
+  {
+    "parent_code": "AP504",
+    "sub_code": "",
+    "sub_name": "정신의학적 집중관리료-폐쇄병동 집중관리료_상급종합병원"
+  },
+  {
+    "parent_code": "AP505",
+    "sub_code": "",
+    "sub_name": "정신의학적 집중관리료-격리보호료_상급종합병원"
+  },
+  {
+    "parent_code": "AP506",
+    "sub_code": "",
+    "sub_name": "정맥내 혈전용해술 관리료-상급종합병원"
+  },
+  {
+    "parent_code": "AP601",
+    "sub_code": "",
+    "sub_name": "회복관리료-종합병원"
+  },
+  {
+    "parent_code": "AP602",
+    "sub_code": "",
+    "sub_name": "외래 항암주사관리료-종합병원"
+  },
+  {
+    "parent_code": "AP603",
+    "sub_code": "",
+    "sub_name": "항암요법 부작용 및 반응평가료-종합병원"
+  },
+  {
+    "parent_code": "AP604",
+    "sub_code": "",
+    "sub_name": "정신의학적 집중관리료-폐쇄병동 집중관리료_종합병원"
+  },
+  {
+    "parent_code": "AP605",
+    "sub_code": "",
+    "sub_name": "정신의학적 집중관리료-격리보호료_종합병원"
+  },
+  {
+    "parent_code": "AP606",
+    "sub_code": "",
+    "sub_name": "정맥내 혈전용해술 관리료-종합병원"
+  },
+  {
+    "parent_code": "AP701",
+    "sub_code": "",
+    "sub_name": "회복관리료-병원,치과병원,요양병원,한방병원"
+  },
+  {
+    "parent_code": "AP702",
+    "sub_code": "",
+    "sub_name": "외래 항암주사관리료-병원,치과병원,요양병원,한방병원"
+  },
+  {
+    "parent_code": "AP703",
+    "sub_code": "",
+    "sub_name": "항암요법 부작용 및 반응평가료-병원,치과병원,요양병원,한방병원"
+  },
+  {
+    "parent_code": "AP706",
+    "sub_code": "",
+    "sub_name": "정맥내 혈전용해술 관리료-병원,치과병원,요양병원,한방병원"
+  },
+  {
+    "parent_code": "AP801",
+    "sub_code": "",
+    "sub_name": "회복관리료-의원,치과의원,보건의료원"
+  },
+  {
+    "parent_code": "AP802",
+    "sub_code": "",
+    "sub_name": "외래 항암주사관리료-의원,치과의원,보건의료원"
+  },
+  {
+    "parent_code": "AP803",
+    "sub_code": "",
+    "sub_name": "항암요법 부작용 및 반응평가료-의원,치과의원,보건의료원"
+  },
+  {
+    "parent_code": "AP806",
+    "sub_code": "",
+    "sub_name": "정맥내 혈전용해술 관리료-의원,치과의원,보건의료원"
+  },
+  {
+    "parent_code": "AP900",
+    "sub_code": "",
+    "sub_name": "치과 집중관리료(1일당)"
+  }
+]

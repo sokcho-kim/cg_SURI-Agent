@@ -1,0 +1,327 @@
+[
+  {
+    "parent_code": "AC034",
+    "sub_code": "",
+    "sub_name": "수면검사실 관리료-의원"
+  },
+  {
+    "parent_code": "AC301",
+    "sub_code": "―  AC301C50",
+    "sub_name": "소아 진정관리료-상급종합병원"
+  },
+  {
+    "parent_code": "AC301",
+    "sub_code": "―  AC301C10",
+    "sub_name": "소아 진정관리료-상급종합병원"
+  },
+  {
+    "parent_code": "AC301",
+    "sub_code": "―  AC301C00",
+    "sub_name": "소아 진정관리료-상급종합병원"
+  },
+  {
+    "parent_code": "AC301",
+    "sub_code": "―  AC301B50",
+    "sub_name": "소아 진정관리료-상급종합병원"
+  },
+  {
+    "parent_code": "AC301",
+    "sub_code": "―  AC301B10",
+    "sub_name": "소아 진정관리료-상급종합병원"
+  },
+  {
+    "parent_code": "AC301",
+    "sub_code": "―  AC301B00",
+    "sub_name": "소아 진정관리료-상급종합병원"
+  },
+  {
+    "parent_code": "AC301",
+    "sub_code": "―  AC301A50",
+    "sub_name": "소아 진정관리료-상급종합병원"
+  },
+  {
+    "parent_code": "AC301",
+    "sub_code": "―  AC301A10",
+    "sub_name": "소아 진정관리료-상급종합병원"
+  },
+  {
+    "parent_code": "AC301",
+    "sub_code": "―  AC301A00",
+    "sub_name": "소아 진정관리료-상급종합병원"
+  },
+  {
+    "parent_code": "AC301",
+    "sub_code": "―  AC301050",
+    "sub_name": "소아 진정관리료-상급종합병원"
+  },
+  {
+    "parent_code": "AC301",
+    "sub_code": "―  AC301010",
+    "sub_name": "소아 진정관리료-상급종합병원"
+  },
+  {
+    "parent_code": "AC302",
+    "sub_code": "―  AC302C50",
+    "sub_name": "소아 진정관리료-종합병원"
+  },
+  {
+    "parent_code": "AC302",
+    "sub_code": "―  AC302C10",
+    "sub_name": "소아 진정관리료-종합병원"
+  },
+  {
+    "parent_code": "AC302",
+    "sub_code": "―  AC302C00",
+    "sub_name": "소아 진정관리료-종합병원"
+  },
+  {
+    "parent_code": "AC302",
+    "sub_code": "―  AC302B50",
+    "sub_name": "소아 진정관리료-종합병원"
+  },
+  {
+    "parent_code": "AC302",
+    "sub_code": "―  AC302B10",
+    "sub_name": "소아 진정관리료-종합병원"
+  },
+  {
+    "parent_code": "AC302",
+    "sub_code": "―  AC302B00",
+    "sub_name": "소아 진정관리료-종합병원"
+  },
+  {
+    "parent_code": "AC302",
+    "sub_code": "―  AC302A50",
+    "sub_name": "소아 진정관리료-종합병원"
+  },
+  {
+    "parent_code": "AC302",
+    "sub_code": "―  AC302A10",
+    "sub_name": "소아 진정관리료-종합병원"
+  },
+  {
+    "parent_code": "AC302",
+    "sub_code": "―  AC302A00",
+    "sub_name": "소아 진정관리료-종합병원"
+  },
+  {
+    "parent_code": "AC302",
+    "sub_code": "―  AC302050",
+    "sub_name": "소아 진정관리료-종합병원"
+  },
+  {
+    "parent_code": "AC302",
+    "sub_code": "―  AC302010",
+    "sub_name": "소아 진정관리료-종합병원"
+  },
+  {
+    "parent_code": "AC303",
+    "sub_code": "―  AC303C50",
+    "sub_name": "소아 진정관리료-병원,치과병원,요양병원,한방병원"
+  },
+  {
+    "parent_code": "AC303",
+    "sub_code": "―  AC303C10",
+    "sub_name": "소아 진정관리료-병원,치과병원,요양병원,한방병원"
+  },
+  {
+    "parent_code": "AC303",
+    "sub_code": "―  AC303C00",
+    "sub_name": "소아 진정관리료-병원,치과병원,요양병원,한방병원"
+  },
+  {
+    "parent_code": "AC303",
+    "sub_code": "―  AC303B50",
+    "sub_name": "소아 진정관리료-병원,치과병원,요양병원,한방병원"
+  },
+  {
+    "parent_code": "AC303",
+    "sub_code": "―  AC303B10",
+    "sub_name": "소아 진정관리료-병원,치과병원,요양병원,한방병원"
+  },
+  {
+    "parent_code": "AC303",
+    "sub_code": "―  AC303B00",
+    "sub_name": "소아 진정관리료-병원,치과병원,요양병원,한방병원"
+  },
+  {
+    "parent_code": "AC303",
+    "sub_code": "―  AC303A50",
+    "sub_name": "소아 진정관리료-병원,치과병원,요양병원,한방병원"
+  },
+  {
+    "parent_code": "AC303",
+    "sub_code": "―  AC303A10",
+    "sub_name": "소아 진정관리료-병원,치과병원,요양병원,한방병원"
+  },
+  {
+    "parent_code": "AC303",
+    "sub_code": "―  AC303A00",
+    "sub_name": "소아 진정관리료-병원,치과병원,요양병원,한방병원"
+  },
+  {
+    "parent_code": "AC303",
+    "sub_code": "―  AC303050",
+    "sub_name": "소아 진정관리료-병원,치과병원,요양병원,한방병원"
+  },
+  {
+    "parent_code": "AC303",
+    "sub_code": "―  AC303010",
+    "sub_name": "소아 진정관리료-병원,치과병원,요양병원,한방병원"
+  },
+  {
+    "parent_code": "AC304",
+    "sub_code": "―  AC304C50",
+    "sub_name": "소아 진정관리료-의원,치과의원,보건의료원"
+  },
+  {
+    "parent_code": "AC304",
+    "sub_code": "―  AC304C10",
+    "sub_name": "소아 진정관리료-의원,치과의원,보건의료원"
+  },
+  {
+    "parent_code": "AC304",
+    "sub_code": "―  AC304C00",
+    "sub_name": "소아 진정관리료-의원,치과의원,보건의료원"
+  },
+  {
+    "parent_code": "AC304",
+    "sub_code": "―  AC304B50",
+    "sub_name": "소아 진정관리료-의원,치과의원,보건의료원"
+  },
+  {
+    "parent_code": "AC304",
+    "sub_code": "―  AC304B10",
+    "sub_name": "소아 진정관리료-의원,치과의원,보건의료원"
+  },
+  {
+    "parent_code": "AC304",
+    "sub_code": "―  AC304B00",
+    "sub_name": "소아 진정관리료-의원,치과의원,보건의료원"
+  },
+  {
+    "parent_code": "AC304",
+    "sub_code": "―  AC304A50",
+    "sub_name": "소아 진정관리료-의원,치과의원,보건의료원"
+  },
+  {
+    "parent_code": "AC304",
+    "sub_code": "―  AC304A10",
+    "sub_name": "소아 진정관리료-의원,치과의원,보건의료원"
+  },
+  {
+    "parent_code": "AC304",
+    "sub_code": "―  AC304A00",
+    "sub_name": "소아 진정관리료-의원,치과의원,보건의료원"
+  },
+  {
+    "parent_code": "AC304",
+    "sub_code": "―  AC304050",
+    "sub_name": "소아 진정관리료-의원,치과의원,보건의료원"
+  },
+  {
+    "parent_code": "AC304",
+    "sub_code": "―  AC304010",
+    "sub_name": "소아 진정관리료-의원,치과의원,보건의료원"
+  },
+  {
+    "parent_code": "AC410",
+    "sub_code": "",
+    "sub_name": "입원환자 안전관리료-상급종합병원"
+  },
+  {
+    "parent_code": "AC421",
+    "sub_code": "",
+    "sub_name": "입원환자 안전관리료-종합병원-500병상 이상"
+  },
+  {
+    "parent_code": "AC422",
+    "sub_code": "",
+    "sub_name": "입원환자 안전관리료-종합병원-100병상 이상~ 500병상 미만"
+  },
+  {
+    "parent_code": "AC430",
+    "sub_code": "",
+    "sub_name": "입원환자 안전관리료-병원"
+  },
+  {
+    "parent_code": "AC600",
+    "sub_code": "",
+    "sub_name": "뇌졸중 집중치료실 전담의"
+  },
+  {
+    "parent_code": "AC611",
+    "sub_code": "―  AC611200",
+    "sub_name": "뇌졸중 집중치료실 입원료-상급종합병원"
+  },
+  {
+    "parent_code": "AC611",
+    "sub_code": "―  AC611100",
+    "sub_name": "뇌졸중 집중치료실 입원료-상급종합병원"
+  },
+  {
+    "parent_code": "AC612",
+    "sub_code": "―  AC612200",
+    "sub_name": "고위험임산부 집중치료실 입원료-상급종합병원"
+  },
+  {
+    "parent_code": "AC612",
+    "sub_code": "―  AC612100",
+    "sub_name": "고위험임산부 집중치료실 입원료-상급종합병원"
+  },
+  {
+    "parent_code": "AC621",
+    "sub_code": "―  AC621200",
+    "sub_name": "뇌졸중 집중치료실 입원료-종합병원"
+  },
+  {
+    "parent_code": "AC621",
+    "sub_code": "―  AC621100",
+    "sub_name": "뇌졸중 집중치료실 입원료-종합병원"
+  },
+  {
+    "parent_code": "AC622",
+    "sub_code": "―  AC622200",
+    "sub_name": "고위험임산부 집중치료실 입원료-종합병원"
+  },
+  {
+    "parent_code": "AC622",
+    "sub_code": "―  AC622100",
+    "sub_name": "고위험임산부 집중치료실 입원료-종합병원"
+  },
+  {
+    "parent_code": "AC632",
+    "sub_code": "―  AC632200",
+    "sub_name": "고위험임산부 집중치료실 입원료-병원"
+  },
+  {
+    "parent_code": "AC632",
+    "sub_code": "―  AC632100",
+    "sub_name": "고위험임산부 집중치료실 입원료-병원"
+  },
+  {
+    "parent_code": "AC711",
+    "sub_code": "",
+    "sub_name": "고위험임산부 집중관리료[1일당]-상급종합병원-6시간 미만"
+  },
+  {
+    "parent_code": "AC712",
+    "sub_code": "",
+    "sub_name": "고위험임산부 집중관리료[1일당]-상급종합병원-6시간 이상"
+  },
+  {
+    "parent_code": "AC721",
+    "sub_code": "",
+    "sub_name": "고위험임산부 집중관리료[1일당]-종합병원-6시간 미만"
+  },
+  {
+    "parent_code": "AC722",
+    "sub_code": "",
+    "sub_name": "고위험임산부 집중관리료[1일당]-종합병원-6시간 이상"
+  },
+  {
+    "parent_code": "AC731",
+    "sub_code": "",
+    "sub_name": "고위험임산부 집중관리료[1일당]-병원-6시간 미만"
+  }
+]

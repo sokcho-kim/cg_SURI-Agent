@@ -1,0 +1,102 @@
+[
+  {
+    "parent_code": "AL586",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-16~30일분(상급종합병원)"
+  },
+  {
+    "parent_code": "AL587",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-31일분 이상(상급종합병원)"
+  },
+  {
+    "parent_code": "AL650",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-포장단위(병,팩)지급(종합병원)"
+  },
+  {
+    "parent_code": "AL651",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-1일분(종합병원)"
+  },
+  {
+    "parent_code": "AL652",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-2일분(종합병원)"
+  },
+  {
+    "parent_code": "AL653",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-3일분(종합병원)"
+  },
+  {
+    "parent_code": "AL654",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-4일분(종합병원)"
+  },
+  {
+    "parent_code": "AL655",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-5일분(종합병원)"
+  },
+  {
+    "parent_code": "AL656",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-6일분(종합병원)"
+  },
+  {
+    "parent_code": "AL657",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-7일분(종합병원)"
+  },
+  {
+    "parent_code": "AL658",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-8일분(종합병원)"
+  },
+  {
+    "parent_code": "AL659",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-9일분(종합병원)"
+  },
+  {
+    "parent_code": "AL660",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-10일분(종합병원)"
+  },
+  {
+    "parent_code": "AL661",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-11일분(종합병원)"
+  },
+  {
+    "parent_code": "AL662",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-12일분(종합병원)"
+  },
+  {
+    "parent_code": "AL663",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-13일분(종합병원)"
+  },
+  {
+    "parent_code": "AL674",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-14일분(종합병원)"
+  },
+  {
+    "parent_code": "AL675",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-15일분(종합병원)"
+  },
+  {
+    "parent_code": "AL686",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-16~30일분(종합병원)"
+  },
+  {
+    "parent_code": "AL687",
+    "sub_code": "",
+    "sub_name": "입원환자 의약품관리료-31일분 이상(종합병원)"
+  }
+]

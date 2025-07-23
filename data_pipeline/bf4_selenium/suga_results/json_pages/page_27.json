@@ -1,0 +1,102 @@
+[
+  {
+    "parent_code": "AZ202",
+    "sub_code": "―  AZ202600",
+    "sub_name": "암환자 교육·상담료-수술 후_종합병원"
+  },
+  {
+    "parent_code": "AZ210",
+    "sub_code": "―  AZ210600",
+    "sub_name": "심장질환 교육·상담료_종합병원"
+  },
+  {
+    "parent_code": "AZ220",
+    "sub_code": "―  AZ220602",
+    "sub_name": "장루/요루 교육·상담료_종합병원"
+  },
+  {
+    "parent_code": "AZ220",
+    "sub_code": "―  AZ220600",
+    "sub_name": "장루/요루 교육·상담료_종합병원"
+  },
+  {
+    "parent_code": "AZ220",
+    "sub_code": "―  AZ220002",
+    "sub_name": "장루/요루 교육·상담료_종합병원"
+  },
+  {
+    "parent_code": "AZ230",
+    "sub_code": "―  AZ230600",
+    "sub_name": "만성신부전 교육·상담료-투석이 필요 없는 환자_종합병원"
+  },
+  {
+    "parent_code": "AZ231",
+    "sub_code": "―  AZ231600",
+    "sub_name": "만성신부전 교육·상담료-복막투석_종합병원"
+  },
+  {
+    "parent_code": "AZ232",
+    "sub_code": "―  AZ232600",
+    "sub_name": "만성신부전 교육·상담료-혈액투석_종합병원"
+  },
+  {
+    "parent_code": "AZ300",
+    "sub_code": "―  AZ300601",
+    "sub_name": "암환자 교육·상담료-항암화학요법_병원"
+  },
+  {
+    "parent_code": "AZ300",
+    "sub_code": "―  AZ300600",
+    "sub_name": "암환자 교육·상담료-항암화학요법_병원"
+  },
+  {
+    "parent_code": "AZ300",
+    "sub_code": "―  AZ300001",
+    "sub_name": "암환자 교육·상담료-항암화학요법_병원"
+  },
+  {
+    "parent_code": "AZ301",
+    "sub_code": "―  AZ301600",
+    "sub_name": "암환자 교육·상담료-방사선치료_병원"
+  },
+  {
+    "parent_code": "AZ302",
+    "sub_code": "―  AZ302600",
+    "sub_name": "암환자 교육·상담료-수술 후_병원"
+  },
+  {
+    "parent_code": "AZ310",
+    "sub_code": "―  AZ310600",
+    "sub_name": "심장질환 교육·상담료_병원"
+  },
+  {
+    "parent_code": "AZ320",
+    "sub_code": "―  AZ320602",
+    "sub_name": "장루/요루 교육·상담료_병원"
+  },
+  {
+    "parent_code": "AZ320",
+    "sub_code": "―  AZ320600",
+    "sub_name": "장루/요루 교육·상담료_병원"
+  },
+  {
+    "parent_code": "AZ320",
+    "sub_code": "―  AZ320002",
+    "sub_name": "장루/요루 교육·상담료_병원"
+  },
+  {
+    "parent_code": "AZ330",
+    "sub_code": "―  AZ330600",
+    "sub_name": "만성신부전 교육·상담료-투석이 필요 없는 환자_병원"
+  },
+  {
+    "parent_code": "AZ331",
+    "sub_code": "―  AZ331600",
+    "sub_name": "만성신부전 교육·상담료-복막투석_병원"
+  },
+  {
+    "parent_code": "AZ332",
+    "sub_code": "―  AZ332600",
+    "sub_name": "만성신부전 교육·상담료-혈액투석_병원"
+  }
+]
